@@ -1,0 +1,63 @@
+.button {
+    font: bold 16px Arial;
+    text-decoration: none;
+    background-color: rgb(126, 12, 136);
+    color: #ffffff;
+    padding: 12px 50px 14px 50px;
+    border-top: 1px solid #CCCCCC;
+    border-right: 1px solid #333333;
+    border-bottom: 1px solid #333333;
+    border-left: 1px solid #CCCCCC;
+}
+
+.items {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    margin-top: 2%;
+}
+
+body.tela1{
+    color: aliceblue;
+    background-image:url("./fotins/background.jpg");
+}
+
+body.tela2{
+    color: aliceblue;
+    background-image:url("./fotins/background2.jpg");
+}
+
+
+h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+input[type="button"] {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    height: 45px;
+    width: 200px;
+    color: cornsilk;
+    background-color: rgb(126, 12, 136);
+    cursor: pointer;
+}
+
+input[type="text"] {
+   height: 30px;
+}
+
+input[type="number"] {
+    height: 30px;
+}
+
+input[id="DATA"] {
+    height: 30px;
+    width: 1000px;
+}
+
+p {
+    font-size: 1.3rem;
+}
